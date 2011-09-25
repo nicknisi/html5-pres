@@ -1,0 +1,97 @@
+/**
+ * HTML5 Presentation
+ * Written by Nick Nisi
+ * for NECFUG talk on HTML5
+ **/
+
+@font-face {
+	font-family: ubuntu;
+	src: url('../font/ubuntu.ttf');
+}
+
+@font-face {
+	font-family: mario;
+	src: url('../font/mario.ttf');
+}
+
+@font-face {
+	font-family: transformers;
+	src: url('../font/transformers.ttf');
+}
+
+@font-face {
+	font-family: bebas;
+	src: url('../font/bebas.otf');
+}
+
+@font-face {
+	font-family: sansation;
+	src: url('../font/sansation.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+article.deck {
+	width: 100%;
+	height: 100%;
+}
+
+article.deck header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background-color: #CCC;
+	display: block;
+	opacity: 0.4;
+}
+
+article.deck header h1 {
+	font-family: transformers;
+	padding: 5px 10px;
+	z-index: 1;
+}
+
+article.deck footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 15px;
+	display: block;
+	background-color: #CCC;
+	text-align: center;
+}
+
+section.slide {
+	display: inline-block;
+	z-index: 0;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	position: absolute;
+	top: 48%;
+	font-family: sansation;
+}
+
+section.slide div.content {
+	margin: 0 auto;
+}
+
+section.slide div.content.centered {
+	text-align: center;
+}
