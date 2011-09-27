@@ -84,7 +84,7 @@ section.slide {
 	color: #FFFFFF;
 	font-size: 1.5em;
 	position: absolute;
-	top: 45%;
+	top: 25%;
 	font-family: sansation;
 }
 
@@ -94,4 +94,8 @@ section.slide div.content {
 
 section.slide div.content.centered {
 	text-align: center;
+}
+
+section.slide div.content ul {
+	list-style: none outside none;
 }
