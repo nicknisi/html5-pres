@@ -15,8 +15,8 @@ Topic
 	4.2 new
 5 Semantic Tags
 	5.1 header
-	5.2 footer
-	5.3 hgroup
+	5.2 hgroup
+	5.3 footer
 	5.4 nav
 	5.5 section
 	5.6 article
@@ -37,8 +37,8 @@ Topic
 	7.8 color
 	7.9 pattern
 8 Media
-	8.1 video
-	8.2 audio
+	8.1 audio
+	8.2 video
 9 canvas
 10 Data Storage
 	10.1 data- attribute

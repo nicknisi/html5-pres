@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="css/prez.css"/>
 		<script src="js/jquery-1.6.4.js"></script>
 		<script src="js/prez.js"></script>
+		<script src="js/canvas.js"></script>
 	</head>
 	<body>
 		<article class="deck">
@@ -35,7 +36,7 @@
 			
 			<section class="slide">
 				<div class="content centered">
-					(those were the authors)
+					(those are the authors)
 				</div>
 			</section>
 			
@@ -125,10 +126,458 @@
 				</div>
 			</section>
 			
+			<section class="slide">
+				<div class="content centered">
+					&lt;header&gt;&lt;/header&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;hgroup&gt;&lt;/hgroup&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;footer&gt;&lt;/footer&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;nav&gt;&lt;/nav&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;section&gt;&lt;/section&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;article&gt;&lt;/article&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;aside&gt;&lt;/aside&gt;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;time&gt;&lt;/time&gt;
+				</div>
+			</section>
+			
 			<section class="slide" style="top:25%;">
 				<div class="content centered">
 				<img src="img/semantics.png"/>
 				<img src="img/unsemantics.png"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					CSS3
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Web Fonts
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					You can supply browsers with specific font
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					@font-face { font-family: waycool; src: url('way-cool-font.ttf'); }
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					.coolfont { font-family: waycool; }
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<span class="bebas">gives you cool font like this!</span>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<span class="ubuntu">And this!</span>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<span class="transformers">And this!</span>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<span class="mario">And finally this!</span>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					http://www.google.com/webfonts
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					http://www.dafont.com/
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					border radius
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					border-radius: 5px;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div>border-radius-topleft: 5px;</div>
+					<div>border-radius-topright: 5px;</div>					
+					<div>border-radius-bottomleft: 10px;</div>
+					<div>border-radius-bottomright: 10px;</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div class="demobox" style="border-radius:5px;">
+						border radius at 5px
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div class="demobox" style="border-radius:10px;">
+						border radius at 10px
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					shadows
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					box-shadow: 10px 10px 5px #888;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					text-shadow: 2px 2px 2px #000;
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div class="demobox" style="box-shadow:2px 2px 20px #FFF;">
+						<h3 style="text-shadow:2px 2px 2px #000;">Text Shadow</h3>
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					new form elements
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="email"/&gt; <br/>
+					Email: <input type="email"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="url"/&gt; <br/>
+					URL: <input type="url"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="date"/&gt; <br/>
+					Date: <input type="date"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="time"/&gt; <br/>
+					time: <input type="time"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="number" min="5" max="10"/&gt; <br/>
+					Number: <input type="number" min="5" max="10"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="range" min="1" max="10"/&gt; <br/>
+					Range: <input type="range"  min="1" max="10"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="tel"/&gt; <br/>
+					Phone: <input type="tel"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="color"/&gt; <br/>
+					Color: <input type="color"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					&lt;input type="text" pattern="\(\>\'\.\'\)\>"/&gt; <br/>
+					Kirby: <input type="text" pattern="\(\>\'\.\'\)\>"/>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					media
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div>
+						&lt;audio controls="controls"&gt; <br/>
+							&lt;source src="slouchcouchSound.ogg" type="audio/ogg" /&gt;<br/>
+							&lt;source src="slouchcouchSound.mp3" type="audio/mp3" /&gt;<br/>
+							Your browser does not support the audio element.<br/>
+						&lt;/audio&gt;
+					</div>
+					<div>
+						<audio controls="controls">
+							<source src="media/slouchcouchSound.ogg" type="audio/ogg" />
+							<source src="media/slouchcouchSound.mp3" type="audio/mp3" />
+							Your browser does not support the audio element.
+						</audio>
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div>
+						&lt;video width="320" height="240" controls="controls"&gt; <br/>
+						  &lt;source src="movie.mp4" type="video/mp4" /&gt;<br/>
+						  &lt;source src="movie.ogg" type="video/ogg" /&gt;<br/>
+						  Your browser does not support the video tag.<br/>
+						&lt;/video&gt;
+					</div>
+					<div>
+					<video width="320" height="240" controls="controls">
+					  <source src="movie.mp4" type="video/mp4" />
+					  <source src="movie.ogg" type="video/ogg" />
+					  Your browser does not support the video tag.
+					</video>
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					canvas
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div>
+						&lt;canvas id="canvas"&gt;&lt;/canvas&gt;
+					</div>
+					<div>
+						<canvas id="canvas" width="320" height="240"></canvas>
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					JavaScript Selectors
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Old Way
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					document.getElementById('foo'); <br/>
+					document.getElementsByClassName('bar');
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					new way
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					like jQuery
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					document.querySelector('#foo'); <br/>
+					document.querySelectorAll('.someclass');
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					now for some less knowledgeable stuff
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					data storage
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					<div>
+						data attribute
+					</div>
+					<div>
+						&lt;div id="foo" data-foodata="somedata"&gt;&lt;/div&gt; <br/>
+						$('#foo').data('foodata');
+					</div>
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Web SQL
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Offline Storage
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Web Workers
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					essentially JavaScript threads
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					can't access DOM
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					web sockets
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					permanent bi-directional connection between client and server
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					history api
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					JavaScript can modify history
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					pushState
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					http://foo.com#/foo/bar <br/>
+					http://foo.com/foo/bar
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					Make single page applications look like multiple page applications
+				</div>
+			</section>
+			
+			<section class="slide">
+				<div class="content centered">
+					fin
 				</div>
 			</section>
 			

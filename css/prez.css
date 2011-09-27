@@ -29,9 +29,31 @@
 	src: url('../font/sansation.ttf');
 }
 
+.mario {
+	font-family: mario;
+}
+
+.ubuntu {
+	font-family: ubuntu;
+}
+
+.transformers {
+	font-family: transformers;
+}
+
+.bebas {
+	font-family: bebas;
+}
+
 * {
 	margin: 0;
 	padding: 0;
+}
+
+header, hrgroup, footer, nav,
+section, article, time, aside {
+	display: block;
+	position: relative;
 }
 
 html, body {
@@ -98,4 +120,17 @@ section.slide div.content.centered {
 
 section.slide div.content ul {
 	list-style: none outside none;
+}
+
+.demobox {
+	width: 400px;
+	margin: 0 auto;
+	background-color: #EFF0F1;
+	color: #333333;
+	border: 2px solid #FF0000;
+}
+
+input {
+	font-size: 1.3em;
+	border: 5px solid #000;
 }

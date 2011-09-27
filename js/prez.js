@@ -43,14 +43,15 @@ jQuery(function () {
 			}
 		})
 		.bind('keypress.prez', function (e) {
+			console.log('key pressed: ' + e.which);
 			switch (e.which) {
-				case 37: // left
-				case 38: // up
+				// case 37: // left
+				// case 38: // up
 				case 112: // p
 				prez.previous();
 				break;
-				case 39: // right
-				case 40: // down
+				// case 39: // right
+				// case 40: // down
 				case 110: // n
 				case 32: // spacebar
 				case 13: // enter
@@ -58,6 +59,9 @@ jQuery(function () {
 				break;
 			}
 		});
+	
+	$('input').unbind('keypress.prez');
+	
 	$('section.slide').hide();
 	prez.init();
 });
